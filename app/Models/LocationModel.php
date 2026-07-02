@@ -16,16 +16,17 @@ class LocationModel extends Model
     protected $allowedFields    = ['id_vehicule', 'id_clients', 'date_debut', 'date_fin'];
 
     protected $validationRules = [
-        'id_vehicule' => 'required|integer',
+        'id_vehicule' => 'required|integer|dispo',
         'id_clients'  => 'required|integer',
         'date_debut'  => 'required|valid_date[Y-m-d]',
-        'date_fin'    => 'permit_empty|valid_date[Y-m-d]',
+        'date_fin'    => 'permit_empty|valid_date[Y-m-d]|date_after[date_debut]',
     ];
 
     protected $validationMessages = [
         'id_vehicule' => [
             'required' => 'Le véhicule est obligatoire.',
             'integer'  => 'Le véhicule doit être un entier valide.',
+            'dispo' => 'Le vehicule n\'est pas disponible',
         ],
         'id_clients' => [
             'required' => 'Le client est obligatoire.',
@@ -37,6 +38,7 @@ class LocationModel extends Model
         ],
         'date_fin' => [
             'valid_date'  => 'La date de fin doit être au format YYYY-MM-DD.',
+            'date_after' => 'La date de fin doit etre apres la date de debut',
         ],
     ];
 }

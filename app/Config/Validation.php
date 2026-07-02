@@ -20,11 +20,12 @@ class Validation extends BaseConfig
      *
      * @var list<string>
      */
-    public array $ruleSets = [
+   public array $ruleSets = [
         Rules::class,
         FormatRules::class,
         FileRules::class,
         CreditCardRules::class,
+        \App\Validation\CustomValidation::class,
     ];
 
     /**

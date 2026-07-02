@@ -188,3 +188,654 @@ Stack trace:
 #13 /Users/mac/Documents/Etude/S4/SI/Location/system/Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
 #14 /Users/mac/Documents/Etude/S4/SI/Location/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
 #15 {main}
+CRITICAL - 2026-06-30 12:25:31 --> ErrorException: Undefined variable $vehicule
+[Method: GET, Route: parc]
+in APPPATH/Controllers/ParcController.php on line 27.
+ 1 APPPATH/Controllers/ParcController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vehicule', '/Users/mac/Documents/Etude/S4/SI/Location/app/Controllers/ParcController.php', 27)
+ 2 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:26:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('/parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('/parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:26:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('/parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('/parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:27:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('/parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('/parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:27:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('/parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('/parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:27:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('/parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('/parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:27:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('/parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('/parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:27:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('/parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('/parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:27:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('/parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('/parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:27:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('/parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('/parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:27:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('/parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('/parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:27:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('/parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('/parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:27:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('/parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('/parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:27:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('/parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('/parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:27:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('/parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('/parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:28:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:28:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:28:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:28:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:28:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:28:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:28:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:28:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:28:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:29:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:29:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:29:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:29:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "parc.php"
+[Method: GET, Route: parc]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(29): view('parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:41:10 --> ErrorException: Undefined variable $clients
+[Method: GET, Route: parc]
+in APPPATH/Views/parc/index.php on line 15.
+ 1 APPPATH/Views/parc/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clients', '/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php', 15)
+ 2 SYSTEMPATH/View/View.php(240): include('/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc/index', [], true)
+ 5 APPPATH/Controllers/ParcController.php(29): view('parc/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:42:01 --> ErrorException: Undefined variable $clients
+[Method: GET, Route: parc]
+in APPPATH/Views/parc/index.php on line 15.
+ 1 APPPATH/Views/parc/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clients', '/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php', 15)
+ 2 SYSTEMPATH/View/View.php(240): include('/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc/index', [...], true)
+ 5 APPPATH/Controllers/ParcController.php(30): view('parc/index', [...], [...])
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:42:01 --> ErrorException: Undefined variable $clients
+[Method: GET, Route: parc]
+in APPPATH/Views/parc/index.php on line 15.
+ 1 APPPATH/Views/parc/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clients', '/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php', 15)
+ 2 SYSTEMPATH/View/View.php(240): include('/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc/index', [...], true)
+ 5 APPPATH/Controllers/ParcController.php(30): view('parc/index', [...], [...])
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:42:02 --> ErrorException: Undefined variable $clients
+[Method: GET, Route: parc]
+in APPPATH/Views/parc/index.php on line 15.
+ 1 APPPATH/Views/parc/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clients', '/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php', 15)
+ 2 SYSTEMPATH/View/View.php(240): include('/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc/index', [...], true)
+ 5 APPPATH/Controllers/ParcController.php(30): view('parc/index', [...], [...])
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:42:02 --> ErrorException: Undefined variable $clients
+[Method: GET, Route: parc]
+in APPPATH/Views/parc/index.php on line 15.
+ 1 APPPATH/Views/parc/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clients', '/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php', 15)
+ 2 SYSTEMPATH/View/View.php(240): include('/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc/index', [...], true)
+ 5 APPPATH/Controllers/ParcController.php(30): view('parc/index', [...], [...])
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:42:31 --> ErrorException: Undefined variable $clients
+[Method: GET, Route: parc]
+in APPPATH/Views/parc/index.php on line 15.
+ 1 APPPATH/Views/parc/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clients', '/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php', 15)
+ 2 SYSTEMPATH/View/View.php(240): include('/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc/index', [...], true)
+ 5 APPPATH/Controllers/ParcController.php(30): view('parc/index', [...], [...])
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:42:31 --> ErrorException: Undefined variable $clients
+[Method: GET, Route: parc]
+in APPPATH/Views/parc/index.php on line 15.
+ 1 APPPATH/Views/parc/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clients', '/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php', 15)
+ 2 SYSTEMPATH/View/View.php(240): include('/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc/index', [...], true)
+ 5 APPPATH/Controllers/ParcController.php(30): view('parc/index', [...], [...])
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:42:32 --> ErrorException: Undefined variable $clients
+[Method: GET, Route: parc]
+in APPPATH/Views/parc/index.php on line 15.
+ 1 APPPATH/Views/parc/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clients', '/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php', 15)
+ 2 SYSTEMPATH/View/View.php(240): include('/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc/index', [...], true)
+ 5 APPPATH/Controllers/ParcController.php(30): view('parc/index', [...], [...])
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:58:33 --> ErrorException: Undefined variable $data
+[Method: GET, Route: parc]
+in APPPATH/Controllers/ParcController.php on line 32.
+ 1 APPPATH/Controllers/ParcController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Users/mac/Documents/Etude/S4/SI/Location/app/Controllers/ParcController.php', 32)
+ 2 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:58:45 --> ErrorException: Undefined variable $data
+[Method: GET, Route: parc]
+in APPPATH/Controllers/ParcController.php on line 32.
+ 1 APPPATH/Controllers/ParcController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Users/mac/Documents/Etude/S4/SI/Location/app/Controllers/ParcController.php', 32)
+ 2 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:58:45 --> ErrorException: Undefined variable $data
+[Method: GET, Route: parc]
+in APPPATH/Controllers/ParcController.php on line 32.
+ 1 APPPATH/Controllers/ParcController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Users/mac/Documents/Etude/S4/SI/Location/app/Controllers/ParcController.php', 32)
+ 2 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:59:30 --> ErrorException: Undefined variable $data
+[Method: GET, Route: parc]
+in APPPATH/Controllers/ParcController.php on line 33.
+ 1 APPPATH/Controllers/ParcController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Users/mac/Documents/Etude/S4/SI/Location/app/Controllers/ParcController.php', 33)
+ 2 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:59:30 --> ErrorException: Undefined variable $data
+[Method: GET, Route: parc]
+in APPPATH/Controllers/ParcController.php on line 33.
+ 1 APPPATH/Controllers/ParcController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Users/mac/Documents/Etude/S4/SI/Location/app/Controllers/ParcController.php', 33)
+ 2 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:59:30 --> ErrorException: Undefined variable $data
+[Method: GET, Route: parc]
+in APPPATH/Controllers/ParcController.php on line 33.
+ 1 APPPATH/Controllers/ParcController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Users/mac/Documents/Etude/S4/SI/Location/app/Controllers/ParcController.php', 33)
+ 2 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 12:59:31 --> ErrorException: Undefined variable $data
+[Method: GET, Route: parc]
+in APPPATH/Controllers/ParcController.php on line 33.
+ 1 APPPATH/Controllers/ParcController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', '/Users/mac/Documents/Etude/S4/SI/Location/app/Controllers/ParcController.php', 33)
+ 2 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 14:43:17 --> Error: Class "App\Validation\CustomRules" not found
+[Method: POST, Route: valider_location]
+in SYSTEMPATH/Validation/Validation.php on line 735.
+ 1 SYSTEMPATH/Validation/Validation.php(122): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH/Config/Services.php(844): CodeIgniter\Validation\Validation->__construct(Object(Config\Validation), Object(CodeIgniter\View\View))
+ 3 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::validation(Object(Config\Validation), false)
+ 4 SYSTEMPATH/Common.php(1081): CodeIgniter\Config\BaseService::__callStatic('validation', [...])
+ 5 SYSTEMPATH/BaseModel.php(1652): service('validation', null, false)
+ 6 SYSTEMPATH/BaseModel.php(1611): CodeIgniter\BaseModel->ensureValidation()
+ 7 SYSTEMPATH/BaseModel.php(868): CodeIgniter\BaseModel->validate([...])
+ 8 SYSTEMPATH/Model.php(668): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH/BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+10 APPPATH/Controllers/ParcController.php(45): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->save()
+12 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+13 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 14:45:08 --> Error: Class "App\Validation\CustomRules" not found
+[Method: POST, Route: valider_location]
+in SYSTEMPATH/Validation/Validation.php on line 735.
+ 1 SYSTEMPATH/Validation/Validation.php(122): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH/Config/Services.php(844): CodeIgniter\Validation\Validation->__construct(Object(Config\Validation), Object(CodeIgniter\View\View))
+ 3 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::validation(Object(Config\Validation), false)
+ 4 SYSTEMPATH/Common.php(1081): CodeIgniter\Config\BaseService::__callStatic('validation', [...])
+ 5 SYSTEMPATH/BaseModel.php(1652): service('validation', null, false)
+ 6 SYSTEMPATH/BaseModel.php(1611): CodeIgniter\BaseModel->ensureValidation()
+ 7 SYSTEMPATH/BaseModel.php(868): CodeIgniter\BaseModel->validate([...])
+ 8 SYSTEMPATH/Model.php(668): CodeIgniter\BaseModel->insert([...], false)
+ 9 SYSTEMPATH/BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+10 APPPATH/Controllers/ParcController.php(45): CodeIgniter\BaseModel->save([...])
+11 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->save()
+12 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+13 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 14:46:04 --> ErrorException: Undefined variable $model
+[Method: POST, Route: valider_location]
+in APPPATH/Controllers/ParcController.php on line 47.
+ 1 APPPATH/Controllers/ParcController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $model', '/Users/mac/Documents/Etude/S4/SI/Location/app/Controllers/ParcController.php', 47)
+ 2 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->save()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 14:47:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/parc.php"
+[Method: POST, Route: valider_location]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('/parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(47): view('/parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->save()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 14:48:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/parc.php"
+[Method: POST, Route: valider_location]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/parc.php')
+ 2 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('/parc', [], true)
+ 3 APPPATH/Controllers/ParcController.php(47): view('/parc', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->save()
+ 5 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-06-30 14:48:55 --> ErrorException: Undefined variable $vehicule
+[Method: POST, Route: valider_location]
+in APPPATH/Views/parc/index.php on line 6.
+ 1 APPPATH/Views/parc/index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vehicule', '/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php', 6)
+ 2 SYSTEMPATH/View/View.php(240): include('/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc/index', [], true)
+ 5 APPPATH/Controllers/ParcController.php(47): view('parc/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->save()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')

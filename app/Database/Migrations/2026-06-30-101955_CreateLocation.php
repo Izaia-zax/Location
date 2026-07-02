@@ -31,7 +31,7 @@ class CreateLocation extends Migration
 
             'date_fin' => [
                 'type' => 'DATE',
-                'null' => true,
+                'null' => false,
             ],
         ]);
 

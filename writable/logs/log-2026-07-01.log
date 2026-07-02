@@ -1,0 +1,252 @@
+CRITICAL - 2026-07-01 12:50:07 --> ErrorException: Cannot redeclare class App\Models\VehiculeModel (previously declared in /Users/mac/Documents/Etude/S4/SI/Location/app/Models/VehiculeModel.php:7)
+[Method: GET, Route: parc]
+in APPPATH/Models/VehiculeViewModel.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-07-01 12:51:45 --> ErrorException: Undefined array key "vehicule_dispo"
+[Method: GET, Route: parc]
+in APPPATH/Controllers/ParcController.php on line 37.
+ 1 APPPATH/Controllers/ParcController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "vehicule_dispo"', '/Users/mac/Documents/Etude/S4/SI/Location/app/Controllers/ParcController.php', 37)
+ 2 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-07-01 12:53:58 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: parc]
+in APPPATH/Views/parc/index.php on line 15.
+ 1 APPPATH/Views/parc/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php', 15)
+ 2 SYSTEMPATH/View/View.php(240): include('/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc/index', [], true)
+ 5 APPPATH/Controllers/ParcController.php(37): view('parc/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-07-01 12:53:59 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: parc]
+in APPPATH/Views/parc/index.php on line 15.
+ 1 APPPATH/Views/parc/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php', 15)
+ 2 SYSTEMPATH/View/View.php(240): include('/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc/index', [], true)
+ 5 APPPATH/Controllers/ParcController.php(37): view('parc/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-07-01 12:53:59 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: parc]
+in APPPATH/Views/parc/index.php on line 15.
+ 1 APPPATH/Views/parc/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php', 15)
+ 2 SYSTEMPATH/View/View.php(240): include('/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc/index', [], true)
+ 5 APPPATH/Controllers/ParcController.php(37): view('parc/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-07-01 12:53:59 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: parc]
+in APPPATH/Views/parc/index.php on line 15.
+ 1 APPPATH/Views/parc/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php', 15)
+ 2 SYSTEMPATH/View/View.php(240): include('/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc/index', [], true)
+ 5 APPPATH/Controllers/ParcController.php(37): view('parc/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-07-01 12:53:59 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: parc]
+in APPPATH/Views/parc/index.php on line 15.
+ 1 APPPATH/Views/parc/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php', 15)
+ 2 SYSTEMPATH/View/View.php(240): include('/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc/index', [], true)
+ 5 APPPATH/Controllers/ParcController.php(37): view('parc/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-07-01 12:54:00 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: parc]
+in APPPATH/Views/parc/index.php on line 15.
+ 1 APPPATH/Views/parc/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', '/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php', 15)
+ 2 SYSTEMPATH/View/View.php(240): include('/Users/mac/Documents/Etude/S4/SI/Location/app/Views/parc/index.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1250): CodeIgniter\View\View->render('parc/index', [], true)
+ 5 APPPATH/Controllers/ParcController.php(37): view('parc/index', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 7 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 8 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+ERROR - 2026-07-01 13:26:07 --> Unable to prepare statement: no such column: vehicule_statut_view.id
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 164.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(164): SQLite3->query('SELECT *
+FROM `vehicule_statut_view`
+WHERE `statut` = \'Disponible\'
+AND `vehicule_statut_view`.`id` = \'1\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `vehicule_statut_view`
+WHERE `statut` = \'Disponible\'
+AND `vehicule_statut_view`.`id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `vehicule_statut_view`
+WHERE `statut` = \'Disponible\'
+AND `vehicule_statut_view`.`id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vehicule_statut_view`
+WHERE `statut` = :statut:
+AND `vehicule_statut_view`.`id` = :vehicule_statut_view.id:', [...], false)
+ 5 SYSTEMPATH/Model.php(192): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(615): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Validation/CustomValidation.php(21): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/Validation/Validation.php(344): App\Validation\CustomValidation->dispo('1', null)
+ 9 SYSTEMPATH/Validation/Validation.php(210): CodeIgniter\Validation\Validation->processRules('id_vehicule', 'id_vehicule', '1', [...], [...], 'id_vehicule')
+10 SYSTEMPATH/BaseModel.php(1615): CodeIgniter\Validation\Validation->run([...], null, null)
+11 SYSTEMPATH/BaseModel.php(868): CodeIgniter\BaseModel->validate([...])
+12 SYSTEMPATH/Model.php(668): CodeIgniter\BaseModel->insert([...], false)
+13 SYSTEMPATH/BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+14 APPPATH/Controllers/ParcController.php(48): CodeIgniter\BaseModel->save([...])
+15 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->save()
+16 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+17 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+19 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+20 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+21 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-07-01 13:26:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: vehicule_statut_view.id
+[Method: POST, Route: valider_location]
+in SYSTEMPATH/Database/BaseConnection.php on line 865.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vehicule_statut_view`
+WHERE `statut` = :statut:
+AND `vehicule_statut_view`.`id` = :vehicule_statut_view.id:', [...], false)
+ 2 SYSTEMPATH/Model.php(192): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH/BaseModel.php(615): CodeIgniter\Model->doFind(true, '1')
+ 4 APPPATH/Validation/CustomValidation.php(21): CodeIgniter\BaseModel->find('1')
+ 5 SYSTEMPATH/Validation/Validation.php(344): App\Validation\CustomValidation->dispo('1', null)
+ 6 SYSTEMPATH/Validation/Validation.php(210): CodeIgniter\Validation\Validation->processRules('id_vehicule', 'id_vehicule', '1', [...], [...], 'id_vehicule')
+ 7 SYSTEMPATH/BaseModel.php(1615): CodeIgniter\Validation\Validation->run([...], null, null)
+ 8 SYSTEMPATH/BaseModel.php(868): CodeIgniter\BaseModel->validate([...])
+ 9 SYSTEMPATH/Model.php(668): CodeIgniter\BaseModel->insert([...], false)
+10 SYSTEMPATH/BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+11 APPPATH/Controllers/ParcController.php(48): CodeIgniter\BaseModel->save([...])
+12 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->save()
+13 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+14 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+16 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+17 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+18 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-07-01 13:26:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unable to prepare statement: no such column: vehicule_statut_view.id
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 174.
+ 1 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `vehicule_statut_view`
+WHERE `statut` = \'Disponible\'
+AND `vehicule_statut_view`.`id` = \'1\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `vehicule_statut_view`
+WHERE `statut` = \'Disponible\'
+AND `vehicule_statut_view`.`id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vehicule_statut_view`
+WHERE `statut` = :statut:
+AND `vehicule_statut_view`.`id` = :vehicule_statut_view.id:', [...], false)
+ 4 SYSTEMPATH/Model.php(192): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH/BaseModel.php(615): CodeIgniter\Model->doFind(true, '1')
+ 6 APPPATH/Validation/CustomValidation.php(21): CodeIgniter\BaseModel->find('1')
+ 7 SYSTEMPATH/Validation/Validation.php(344): App\Validation\CustomValidation->dispo('1', null)
+ 8 SYSTEMPATH/Validation/Validation.php(210): CodeIgniter\Validation\Validation->processRules('id_vehicule', 'id_vehicule', '1', [...], [...], 'id_vehicule')
+ 9 SYSTEMPATH/BaseModel.php(1615): CodeIgniter\Validation\Validation->run([...], null, null)
+10 SYSTEMPATH/BaseModel.php(868): CodeIgniter\BaseModel->validate([...])
+11 SYSTEMPATH/Model.php(668): CodeIgniter\BaseModel->insert([...], false)
+12 SYSTEMPATH/BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+13 APPPATH/Controllers/ParcController.php(48): CodeIgniter\BaseModel->save([...])
+14 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->save()
+15 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+16 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+18 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+19 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+20 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-07-01 13:26:07 --> [Caused by] SQLite3Exception: Unable to prepare statement: no such column: vehicule_statut_view.id
+in SYSTEMPATH/Database/SQLite3/Connection.php on line 164.
+ 1 SYSTEMPATH/Database/SQLite3/Connection.php(164): SQLite3->query('SELECT *
+FROM `vehicule_statut_view`
+WHERE `statut` = \'Disponible\'
+AND `vehicule_statut_view`.`id` = \'1\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(910): CodeIgniter\Database\SQLite3\Connection->execute('SELECT *
+FROM `vehicule_statut_view`
+WHERE `statut` = \'Disponible\'
+AND `vehicule_statut_view`.`id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(827): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `vehicule_statut_view`
+WHERE `statut` = \'Disponible\'
+AND `vehicule_statut_view`.`id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `vehicule_statut_view`
+WHERE `statut` = :statut:
+AND `vehicule_statut_view`.`id` = :vehicule_statut_view.id:', [...], false)
+ 5 SYSTEMPATH/Model.php(192): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/BaseModel.php(615): CodeIgniter\Model->doFind(true, '1')
+ 7 APPPATH/Validation/CustomValidation.php(21): CodeIgniter\BaseModel->find('1')
+ 8 SYSTEMPATH/Validation/Validation.php(344): App\Validation\CustomValidation->dispo('1', null)
+ 9 SYSTEMPATH/Validation/Validation.php(210): CodeIgniter\Validation\Validation->processRules('id_vehicule', 'id_vehicule', '1', [...], [...], 'id_vehicule')
+10 SYSTEMPATH/BaseModel.php(1615): CodeIgniter\Validation\Validation->run([...], null, null)
+11 SYSTEMPATH/BaseModel.php(868): CodeIgniter\BaseModel->validate([...])
+12 SYSTEMPATH/Model.php(668): CodeIgniter\BaseModel->insert([...], false)
+13 SYSTEMPATH/BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+14 APPPATH/Controllers/ParcController.php(48): CodeIgniter\BaseModel->save([...])
+15 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->save()
+16 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+17 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+19 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+20 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+21 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-07-01 16:56:12 --> ErrorException: Undefined variable $location_encours
+[Method: GET, Route: parc]
+in APPPATH/Controllers/ParcController.php on line 43.
+ 1 APPPATH/Controllers/ParcController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $location_encours', '/Users/mac/Documents/Etude/S4/SI/Location/app/Controllers/ParcController.php', 43)
+ 2 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
+CRITICAL - 2026-07-01 16:56:38 --> ErrorException: Undefined variable $location_encours
+[Method: GET, Route: parc]
+in APPPATH/Controllers/ParcController.php on line 43.
+ 1 APPPATH/Controllers/ParcController.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $location_encours', '/Users/mac/Documents/Etude/S4/SI/Location/app/Controllers/ParcController.php', 43)
+ 2 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\ParcController->index()
+ 3 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ParcController))
+ 4 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/mac/Documents/Etude/S4/SI/Location/public/index.php')
